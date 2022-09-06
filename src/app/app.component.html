@@ -1,0 +1,22 @@
+<label>
+  Male
+  <input
+    [formControl]="isMale"
+    type="checkbox"
+    appCheckbox
+    appCheckboxCheckedValue="Y"
+    appCheckboxUnCheckedValue="N"
+  />
+</label>
+<div>
+  {{ isMale.value }}
+</div>
+<!-- <label>
+  Famale
+  <input
+    type="checkbox"
+    appCheckbox
+    appCheckboxCheckedValue="Y"
+    appCheckboxUnCheckedValue="N"
+  />
+</label> -->
